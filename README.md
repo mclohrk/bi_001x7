@@ -1,6 +1,9 @@
 # bi_001x7
 BI com dados públicos DATASUS de saúde usando MYSQL e Microsoft Power BI 
 Projeto realizado com dados do estado da BAHIA
+#Todo processo de download, extração e execução do projeto está no doc "Roteiro"
+
+#script .sql do projeto possui tudo que foi utilizado no projeto referente a SQL
 
 
 
@@ -13,7 +16,8 @@ https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/local
 
 https://joseotaviobiscaia.wixsite.com/geopdf/arquivo-das-cidades-em-excel
 
-ftp ftp://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/localidades
+ftp
+ftp://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/localidades
 
 https://www.ibge.gov.br/explica/codigos-dos-municipios.php#AM
 
