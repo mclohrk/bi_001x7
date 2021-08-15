@@ -1,0 +1,42 @@
+Informa��o de C:\Users\m\Desktop\tebd_new\TEBB_PT_1\SOFTWARE\Tab415\ERRN1801.dbf
+
+Language driver  = 0
+Data atualiza��o = 05/08/2019
+Num. Registros   = 1118
+Num. Campos      = 13
+Comp. registro   = 103
+Tamanho Total    = 115603
+
+Estrutura:
+  1 SEQUENCIA  N   9 0    1
+  2 REMESSA    C  21 0   10
+  3 CNES       C   7 0   31
+  4 AIH        C  13 0   38
+  5 ANO        C   4 0   51
+  6 MES        C   2 0   55
+  7 DT_INTER   C  10 0   57
+  8 DT_SAIDA   C  10 0   67
+  9 MUN_MOV    C   6 0   77
+ 10 UF_ZI      C   6 0   83
+ 11 MUN_RES    C   6 0   89
+ 12 UF_RES     C   2 0   95
+ 13 CO_ERRO    C   6 0   97
+
+create table tabela_cnes(
+  sequencia  numeric(9),
+  remessa    char(21),
+  cnes       char(7),
+  aih        char(13),
+  ano        char(4),
+  mes        char(2),
+  dt_inter   char(10),
+  dt_saida   char(10),
+  mun_mov    char(6),
+  uf_zi      char(6),
+  mun_res    char(6),
+  uf_res     char(2),
+  co_erro    char(6));
+
+   INSERT INTO TEBDFLY.dm_cnes(CNES,CODUFMUN,COD_CEP,CPF_CNPJ,PF_PJ,NAT_JUR)
+   select cnes,codufmun,cod_cep,cpf_cnpj,pf_pj,nat_jur  
+   from TEBDFLY.tabela_cnes;

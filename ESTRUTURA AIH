@@ -1,0 +1,238 @@
+Informa��o de C:\Users\m\Desktop\tebd new\TEBB_PT_1\CONVERT_AIH_RN_RS_19_20_21\RDRN1901.dbf
+
+Language driver  = 2
+Data atualiza��o = 06/03/2020
+Num. Registros   = 14985
+Num. Campos      = 113
+Comp. registro   = 702
+Tamanho Total    = 10523119
+
+Estrutura:
+  1 UF_ZI      C   6 0    1
+  2 ANO_CMPT   C   4 0    7
+  3 MES_CMPT   C   2 0   11
+  4 ESPEC      C   2 0   13
+  5 CGC_HOSP   C  14 0   15
+  6 N_AIH      C  13 0   29
+  7 IDENT      C   1 0   42
+  8 CEP        C   8 0   43
+  9 MUNIC_RES  C   6 0   51
+ 10 NASC       C   8 0   57
+ 11 SEXO       C   1 0   65
+ 12 UTI_MES_IN N   2 0   66
+ 13 UTI_MES_AN N   2 0   68
+ 14 UTI_MES_AL N   2 0   70
+ 15 UTI_MES_TO N   3 0   72
+ 16 MARCA_UTI  C   2 0   75
+ 17 UTI_INT_IN N   2 0   77
+ 18 UTI_INT_AN N   2 0   79
+ 19 UTI_INT_AL N   2 0   81
+ 20 UTI_INT_TO N   3 0   83
+ 21 DIAR_ACOM  N   3 0   86
+ 22 QT_DIARIAS N   3 0   89
+ 23 PROC_SOLIC C  10 0   92
+ 24 PROC_REA   C  10 0  102
+ 25 VAL_SH     N  13 2  112
+ 26 VAL_SP     N  13 2  125
+ 27 VAL_SADT   N  13 2  138
+ 28 VAL_RN     N  13 2  151
+ 29 VAL_ACOMP  N  13 2  164
+ 30 VAL_ORTP   N  13 2  177
+ 31 VAL_SANGUE N  13 2  190
+ 32 VAL_SADTSR N  11 2  203
+ 33 VAL_TRANSP N  13 2  214
+ 34 VAL_OBSANG N  11 2  227
+ 35 VAL_PED1AC N  11 2  238
+ 36 VAL_TOT    N  14 2  249
+ 37 VAL_UTI    N   8 2  263
+ 38 US_TOT     N  10 2  271
+ 39 DT_INTER   C   8 0  281
+ 40 DT_SAIDA   C   8 0  289
+ 41 DIAG_PRINC C   4 0  297
+ 42 DIAG_SECUN C   4 0  301
+ 43 COBRANCA   C   2 0  305
+ 44 NATUREZA   C   2 0  307
+ 45 NAT_JUR    C   4 0  309
+ 46 GESTAO     C   1 0  313
+ 47 RUBRICA    N   5 0  314
+ 48 IND_VDRL   C   1 0  319
+ 49 MUNIC_MOV  C   6 0  320
+ 50 COD_IDADE  C   1 0  326
+ 51 IDADE      N   2 0  327
+ 52 DIAS_PERM  N   5 0  329
+ 53 MORTE      N   1 0  334
+ 54 NACIONAL   C   3 0  335
+ 55 NUM_PROC   C   4 0  338
+ 56 CAR_INT    C   2 0  342
+ 57 TOT_PT_SP  N   6 0  344
+ 58 CPF_AUT    C  11 0  350
+ 59 HOMONIMO   C   1 0  361
+ 60 NUM_FILHOS N   2 0  362
+ 61 INSTRU     C   1 0  364
+ 62 CID_NOTIF  C   4 0  365
+ 63 CONTRACEP1 C   2 0  369
+ 64 CONTRACEP2 C   2 0  371
+ 65 GESTRISCO  C   1 0  373
+ 66 INSC_PN    C  12 0  374
+ 67 SEQ_AIH5   C   3 0  386
+ 68 CBOR       C   6 0  389
+ 69 CNAER      C   3 0  395
+ 70 VINCPREV   C   1 0  398
+ 71 GESTOR_COD C   5 0  399
+ 72 GESTOR_TP  C   1 0  404
+ 73 GESTOR_CPF C  15 0  405
+ 74 GESTOR_DT  C   8 0  420
+ 75 CNES       C   7 0  428
+ 76 CNPJ_MANT  C  14 0  435
+ 77 INFEHOSP   C   1 0  449
+ 78 CID_ASSO   C   4 0  450
+ 79 CID_MORTE  C   4 0  454
+ 80 COMPLEX    C   2 0  458
+ 81 FINANC     C   2 0  460
+ 82 FAEC_TP    C   6 0  462
+ 83 REGCT      C   4 0  468
+ 84 RACA_COR   C   2 0  472
+ 85 ETNIA      C   4 0  474
+ 86 SEQUENCIA  N   9 0  478
+ 87 REMESSA    C  21 0  487
+ 88 AUD_JUST   C  50 0  508
+ 89 SIS_JUST   C  50 0  558
+ 90 VAL_SH_FED N  10 2  608
+ 91 VAL_SP_FED N  10 2  618
+ 92 VAL_SH_GES N  10 2  628
+ 93 VAL_SP_GES N  10 2  638
+ 94 VAL_UCI    N  10 2  648
+ 95 MARCA_UCI  C   2 0  658
+ 96 DIAGSEC1   C   4 0  660
+ 97 DIAGSEC2   C   4 0  664
+ 98 DIAGSEC3   C   4 0  668
+ 99 DIAGSEC4   C   4 0  672
+100 DIAGSEC5   C   4 0  676
+101 DIAGSEC6   C   4 0  680
+102 DIAGSEC7   C   4 0  684
+103 DIAGSEC8   C   4 0  688
+104 DIAGSEC9   C   1 0  692
+105 TPDISEC1   C   1 0  693
+106 TPDISEC2   C   1 0  694
+107 TPDISEC3   C   1 0  695
+108 TPDISEC4   C   1 0  696
+109 TPDISEC5   C   1 0  697
+110 TPDISEC6   C   1 0  698
+111 TPDISEC7   C   1 0  699
+112 TPDISEC8   C   1 0  700
+113 TPDISEC9   C   1 0  701
+
+create table rdrn1901(
+  UF_ZI      char(6),
+  ano_cmpt   char(4),
+  mes_cmpt   char(2),
+  espec      char(2),
+  cgc_hosp   char(14),
+  n_aih      char(13),
+  ident      char(1),
+  cep        char(8),
+  munic_res  char(6),
+  nasc       char(8),
+  sexo       char(1),
+  uti_mes_in numeric(2),
+  uti_mes_an numeric(2),
+  uti_mes_al numeric(2),
+  uti_mes_to numeric(3),
+  marca_uti  char(2),
+  uti_int_in numeric(2),
+  uti_int_an numeric(2),
+  uti_int_al numeric(2),
+  uti_int_to numeric(3),
+  diar_acom  numeric(3),
+  qt_diarias numeric(3),
+  proc_solic char(10),
+  proc_rea   char(10),
+  val_sh     numeric(13,2),
+  val_sp     numeric(13,2),
+  val_sadt   numeric(13,2),
+  val_rn     numeric(13,2),
+  val_acomp  numeric(13,2),
+  val_ortp   numeric(13,2),
+  val_sangue numeric(13,2),
+  val_sadtsr numeric(11,2),
+  val_transp numeric(13,2),
+  val_obsang numeric(11,2),
+  val_ped1ac numeric(11,2),
+  val_tot    numeric(14,2),
+  val_uti    numeric(8,2),
+  us_tot     numeric(10,2),
+  dt_inter   char(8),
+  dt_saida   char(8),
+  diag_princ char(4),
+  diag_secun char(4),
+  cobranca   char(2),
+  natureza   char(2),
+  nat_jur    char(4),
+  gestao     char(1),
+  rubrica    numeric(5),
+  ind_vdrl   char(1),
+  munic_mov  char(6),
+  cod_idade  char(1),
+  idade      numeric(2),
+  dias_perm  numeric(5),
+  morte      numeric(1),
+  nacional   char(3),
+  num_proc   char(4),
+  car_int    char(2),
+  tot_pt_sp  numeric(6),
+  cpf_aut    char(11),
+  homonimo   char(1),
+  num_filhos numeric(2),
+  instru     char(1),
+  cid_notif  char(4),
+  contracep1 char(2),
+  contracep2 char(2),
+  gestrisco  char(1),
+  insc_pn    char(12),
+  seq_aih5   char(3),
+  cbor       char(6),
+  cnaer      char(3),
+  vincprev   char(1),
+  gestor_cod char(5),
+  gestor_tp  char(1),
+  gestor_cpf char(15),
+  gestor_dt  char(8),
+  cnes       char(7),
+  cnpj_mant  char(14),
+  infehosp   char(1),
+  cid_asso   char(4),
+  cid_morte  char(4),
+  complex    char(2),
+  financ     char(2),
+  faec_tp    char(6),
+  regct      char(4),
+  raca_cor   char(2),
+  etnia      char(4),
+  sequencia  numeric(9),
+  remessa    char(21),
+  aud_just   char(50),
+  sis_just   char(50),
+  val_sh_fed numeric(10,2),
+  val_sp_fed numeric(10,2),
+  val_sh_ges numeric(10,2),
+  val_sp_ges numeric(10,2),
+  val_uci    numeric(10,2),
+  marca_uci  char(2),
+  diagsec1   char(4),
+  diagsec2   char(4),
+  diagsec3   char(4),
+  diagsec4   char(4),
+  diagsec5   char(4),
+  diagsec6   char(4),
+  diagsec7   char(4),
+  diagsec8   char(4),
+  diagsec9   char(1),
+  tpdisec1   char(1),
+  tpdisec2   char(1),
+  tpdisec3   char(1),
+  tpdisec4   char(1),
+  tpdisec5   char(1),
+  tpdisec6   char(1),
+  tpdisec7   char(1),
+  tpdisec8   char(1),
+  tpdisec9   char(1));
