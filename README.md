@@ -39,7 +39,7 @@ Outras bases de dados originadas de outros sistemas também se fazem necessária
 
 Além destas, outras bases de dados se fazem necessário como a de Municípios (IBGE), Procedimentos de Saúde e CID (Código Internacional de Doenças), mas estas iremos disponibilizar em formato de texto (.CSV).  
   
-Os estados(UF) escolhidos foram RN e RS, Rio Grande do Norte e Rio Grande do Sul respectivamente.
+O estadO(UF) escolhido foi o estado da Bahia BA.
 
 Os arquivos disponibilizados para o download estão num formato de compactação antigo com a extensão .DBC (Database Containe), e para termos acesso aos dados teremos que descompactar utilizando um software específico muito utilizado por especialistas, pesquisadores e estatísticos da área de saúde chamado TABWIN
 
